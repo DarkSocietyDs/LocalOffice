@@ -1,43 +1,22 @@
 **************************************************
 Id: 1
-Titulo: Prueba1
+Titulo: Angelic Grace
 Categoria: bautizo
-Descripcion: Esto es una descripción para la prueba de agregar plantillass #1
+ColorPalette: <i class="bx bxs-square-rounded fs-4" style="color:#5A639C;"><i class="bx bxs-square-rounded fs-4" style="color:#D1D8C5;"><i class="bx bxs-square-rounded fs-4" style="color:#57A6A1;"><i class="bx bxs-square-rounded fs-4" style="color:#FFFFFF;">
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
+Valor: AngelicGrace-template
 **************************************************
 Id: 2
-Titulo: Prueba2
-Categoria: bautizo
-Descripcion: Esto es una descripción para la prueba de agregar plantillas #2
+Titulo: Divine Entry
+Categoria: comunion
+ColorPalette: <i class="bx bxs-square-rounded fs-4" style="color:#5A639C;"><i class="bx bxs-square-rounded fs-4" style="color:#D1D8C5;"><i class="bx bxs-square-rounded fs-4" style="color:#57A6A1;"><i class="bx bxs-square-rounded fs-4" style="color:#FFFFFF;">
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
+Valor: DivineEntry-template
 **************************************************
 Id: 3
-Titulo: Prueba3
+Titulo: Eternal Spirit
 Categoria: bautizo
-Descripcion: Esto es una descripción para la prueba de agregar plantillas #3
+ColorPalette: <i class="bx bxs-square-rounded fs-4" style="color:#5A639C;"><i class="bx bxs-square-rounded fs-4" style="color:#D1D8C5;"><i class="bx bxs-square-rounded fs-4" style="color:#57A6A1;"><i class="bx bxs-square-rounded fs-4" style="color:#FFFFFF;">
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-**************************************************
-Id: 4
-Titulo: Prueba4
-Categoria: matrimonio
-Descripcion: Esto es una descripción para la prueba de agregar plantillas #4
-Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-**************************************************
-Id: 5
-Titulo: Prueba5
-Categoria: comunion
-Descripcion: Esto es una descripción para la prueba de agregar plantillas #5
-Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-**************************************************
-Id: 6
-Titulo: Cuautitlan
-Categoria: confirmacion
-Descripcion: Esto es una descripción para la prueba de agregar plantillas #6
-Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-**************************************************
-Id: 7
-Titulo: Izcalli
-Categoria: confirmacion
-Descripcion: Esto es una descripción para la prueba de agregar plantillas #7
-Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
+Valor: EternalSpirit-template
 **************************************************
