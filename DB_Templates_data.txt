@@ -2,21 +2,30 @@
 Id: 1
 Titulo: Angelic Grace
 Categoria: bautizo
-ColorPalette: <i class="bx bxs-square-rounded fs-4" style="color:#5A639C;"><i class="bx bxs-square-rounded fs-4" style="color:#D1D8C5;"><i class="bx bxs-square-rounded fs-4" style="color:#57A6A1;"><i class="bx bxs-square-rounded fs-4" style="color:#FFFFFF;">
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
 Valor: AngelicGrace-template
 **************************************************
 Id: 2
 Titulo: Divine Entry
 Categoria: comunion
-ColorPalette: <i class="bx bxs-square-rounded fs-4" style="color:#5A639C;"><i class="bx bxs-square-rounded fs-4" style="color:#D1D8C5;"><i class="bx bxs-square-rounded fs-4" style="color:#57A6A1;"><i class="bx bxs-square-rounded fs-4" style="color:#FFFFFF;">
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
 Valor: DivineEntry-template
 **************************************************
 Id: 3
 Titulo: Eternal Spirit
 Categoria: bautizo
-ColorPalette: <i class="bx bxs-square-rounded fs-4" style="color:#5A639C;"><i class="bx bxs-square-rounded fs-4" style="color:#D1D8C5;"><i class="bx bxs-square-rounded fs-4" style="color:#57A6A1;"><i class="bx bxs-square-rounded fs-4" style="color:#FFFFFF;">
+Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
+Valor: EternalSpirit-template
+**************************************************
+Id: 4
+Titulo: Eternal Spirit
+Categoria: confirmacion
+Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
+Valor: EternalSpirit-template
+**************************************************
+Id: 5
+Titulo: Eternal Spirit
+Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
 Valor: EternalSpirit-template
 **************************************************
