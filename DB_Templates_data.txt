@@ -13,19 +13,19 @@ Valor: DivineEntry-template
 **************************************************
 Id: 3
 Titulo: Eternal Spirit
-Categoria: bautizo
-Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: EternalSpirit-template
-**************************************************
-Id: 4
-Titulo: Eternal Spirit
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
 Valor: EternalSpirit-template
 **************************************************
+Id: 4
+Titulo: Eternal alma
+Categoria: matrimonio
+Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
+Valor: EternalAlma-template
+**************************************************
 Id: 5
-Titulo: Eternal Spirit
+Titulo: Eternal fe
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: EternalSpirit-template
+Valor: EternalFe-template
 **************************************************
