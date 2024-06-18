@@ -12,10 +12,10 @@ Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
 Valor: DivineEntry-template
 **************************************************
 Id: 3
-Titulo: Eternal Spirit
+Titulo: Dio_Cuautitlan
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: EternalSpirit-template
+Valor: Dio_Cuautitlan-template
 **************************************************
 Id: 4
 Titulo: Eternal alma
