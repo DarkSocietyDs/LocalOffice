@@ -98,3 +98,422 @@ if (isset($_POST['categoria'])) {
     echo json_encode($registros);
 }
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        $.ajax({
+            url: '../config/server_requests/getAllTemplates.php',
+            method: 'POST',
+            data: { categoria: 'bautizo' },
+            dataType: 'json',
+            success: function(registros) {
+                var contenedorTemplates = $('.templatesListBautizos');
+                contenedorTemplates.empty(); // Limpiar el contenedor antes de agregar nuevos elementos
+
+                // Recorrer los registros y generar los contenedores dinámicamente
+                $.each(registros, function(index, registro) {
+                    var contenedor = `
+                        <div class="col-lg-3 m-2">
+                            <div class="card">
+                                <img src="${registro.imagen}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">${registro.titulo}</h5>
+                                    <button type="button" class="btn btn-outline-dark btn-bautizo w-100" data-value-template-bautizo="${registro.valor}">Seleccionar Plantilla</button><br><br>
+                                    <a href="preview-templates?id=${registro.id}" class="btn btn-primary btn-sm">Ver Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    contenedorTemplates.append(contenedor);
+                });
+            },
+            error: function() {
+                console.log('Error al obtener los registros.');
+            }
+        });
+
+
+        $(document).on('click', '.btn-bautizo', function() {
+            var templateValueBautizo = $(this).data('value-template-bautizo');
+            $('#templateSelectedBautizos').val(templateValueBautizo);
+            
+            // Llamar a la función AJAX para actualizar el valor en la base de datos
+            actualizarPlantillaSeleccionadaBautizo(templateValueBautizo);
+        });
+
+
+        function actualizarPlantillaSeleccionadaBautizo(templateValueBautizo) {
+            $.ajax({
+                url: '../config/server_requests/updateTemplateBautismo.php',
+                method: 'POST',
+                data: { plantilla: templateValueBautizo },
+                success: function(response) {
+                    // console.log('Plantilla actualizada en la base de datos.');
+                    Toast.fire({
+                        icon: "success",
+                        title: "Plantilla de Bautismo Actualizada"
+                    });
+                    // Actualizar el estilo del botón de la plantilla seleccionada
+                    actualizarEstiloBotonBautizo(templateValueBautizo);
+                },
+                error: function() {
+                    console.log('Error al actualizar la plantilla en la base de datos.');
+                }
+            });
+        }
+
+
+        function actualizarEstiloBotonBautizo(templateValue) {
+            $('.btn-bautizo').each(function() {
+                if ($(this).data('value-template-bautizo') === templateValue) {
+                    $(this).removeClass('btn-outline-dark').addClass('btn-primary').text('Plantilla Seleccionada');
+                } else {
+                    $(this).removeClass('btn-primary').addClass('btn-outline-dark').text('Seleccionar Plantilla');
+                }
+            });
+        }
+
+
+        // Obtener el valor de la plantilla seleccionada desde el servidor
+        $.ajax({
+            url: '../config/server_requests/getSelectedTemplateBautismo.php',
+            method: 'GET',
+            success: function(response) {
+                var templateValueBautizo = response.trim();
+                if (templateValueBautizo !== "") {
+                    $('#templateSelectedBautizos').val(templateValueBautizo);
+                    actualizarEstiloBotonBautizo(templateValueBautizo);
+                }
+            },
+            error: function() {
+                console.log('Error al obtener la plantilla seleccionada desde el servidor.');
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+        $.ajax({
+            url: '../config/server_requests/getAllTemplates.php',
+            method: 'POST',
+            data: { categoria: 'comunion' },
+            dataType: 'json',
+            success: function(registros) {
+                var contenedorTemplates = $('.templatesListComuniones');
+                contenedorTemplates.empty(); // Limpiar el contenedor antes de agregar nuevos elementos
+
+                // Recorrer los registros y generar los contenedores dinámicamente
+                $.each(registros, function(index, registro) {
+                    var contenedor = `
+                        <div class="col-lg-3 m-2">
+                            <div class="card">
+                                <img src="${registro.imagen}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">${registro.titulo}</h5>
+                                    <button type="button" class="btn btn-outline-dark btn-comunion w-100" data-value-template-comunion="${registro.valor}">Seleccionar Plantilla</button><br><br>
+                                    <a href="preview-templates?id=${registro.id}" class="btn btn-primary btn-sm">Ver Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    contenedorTemplates.append(contenedor);
+                });
+            },
+            error: function() {
+                console.log('Error al obtener los registros.');
+            }
+        });
+
+
+        $(document).on('click', '.btn-comunion', function() {
+            var templateValueComunion = $(this).data('value-template-comunion');
+            $('#templateSelectedComuniones').val(templateValueComunion);
+            
+            // Llamar a la función AJAX para actualizar el valor en la base de datos
+            actualizarPlantillaSeleccionadaComunion(templateValueComunion);
+        });
+
+
+        function actualizarPlantillaSeleccionadaComunion(templateValueComunion) {
+            $.ajax({
+                url: '../config/server_requests/updateTemplateComunion.php',
+                method: 'POST',
+                data: { plantilla: templateValueComunion },
+                success: function(response) {
+                    // console.log('Plantilla actualizada en la base de datos.');
+                    Toast.fire({
+                        icon: "success",
+                        title: "Plantilla de Comunión Actualizada"
+                    });
+                    // Actualizar el estilo del botón de la plantilla seleccionada
+                    actualizarEstiloBotonComunion(templateValueComunion);
+                },
+                error: function() {
+                    console.log('Error al actualizar la plantilla en la base de datos.');
+                }
+            });
+        }
+
+
+        function actualizarEstiloBotonComunion(templateValue) {
+            $('.btn-comunion').each(function() {
+                if ($(this).data('value-template-comunion') === templateValue) {
+                    $(this).removeClass('btn-outline-dark').addClass('btn-primary').text('Plantilla Seleccionada');
+                } else {
+                    $(this).removeClass('btn-primary').addClass('btn-outline-dark').text('Seleccionar Plantilla');
+                }
+            });
+        }
+
+
+        // Obtener el valor de la plantilla seleccionada desde el servidor
+        $.ajax({
+            url: '../config/server_requests/getSelectedTemplateComunion.php',
+            method: 'GET',
+            success: function(response) {
+                var templateValueComunion = response.trim();
+                if (templateValueComunion !== "") {
+                    $('#templateSelectedComuniones').val(templateValueComunion);
+                    actualizarEstiloBotonComunion(templateValueComunion);
+                }
+            },
+            error: function() {
+                console.log('Error al obtener la plantilla seleccionada desde el servidor.');
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+        $.ajax({
+            url: '../config/server_requests/getAllTemplates.php',
+            method: 'POST',
+            data: { categoria: 'confirmacion' },
+            dataType: 'json',
+            success: function(registros) {
+                var contenedorTemplates = $('.templatesListConfirmaciones');
+                contenedorTemplates.empty(); // Limpiar el contenedor antes de agregar nuevos elementos
+
+                // Recorrer los registros y generar los contenedores dinámicamente
+                $.each(registros, function(index, registro) {
+                    var contenedor = `
+                        <div class="col-lg-3 m-2">
+                            <div class="card">
+                                <img src="${registro.imagen}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">${registro.titulo}</h5>
+                                    <button type="button" class="btn btn-outline-dark btn-confirmacion w-100" data-value-template-confirmacion="${registro.valor}">Seleccionar Plantilla</button><br><br>
+                                    <a href="preview-templates?id=${registro.id}" class="btn btn-primary btn-sm">Ver Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    contenedorTemplates.append(contenedor);
+                });
+            },
+            error: function() {
+                console.log('Error al obtener los registros.');
+            }
+        });
+
+
+        $(document).on('click', '.btn-confirmacion', function() {
+            var templateValueConfirmacion = $(this).data('value-template-confirmacion');
+            $('#templateSelectedConfirmaciones').val(templateValueConfirmacion);
+            
+            // Llamar a la función AJAX para actualizar el valor en la base de datos
+            actualizarPlantillaSeleccionadaConfirmacion(templateValueConfirmacion);
+        });
+
+
+        function actualizarPlantillaSeleccionadaConfirmacion(templateValueConfirmacion) {
+            $.ajax({
+                url: '../config/server_requests/updateTemplateConfirmacion.php',
+                method: 'POST',
+                data: { plantilla: templateValueConfirmacion },
+                success: function(response) {
+                    // console.log('Plantilla actualizada en la base de datos.');
+                    Toast.fire({
+                        icon: "success",
+                        title: "Plantilla de Confirmación Actualizada"
+                    });
+                    // Actualizar el estilo del botón de la plantilla seleccionada
+                    actualizarEstiloBotonConfirmacion(templateValueConfirmacion);
+                },
+                error: function() {
+                    console.log('Error al actualizar la plantilla en la base de datos.');
+                }
+            });
+        }
+
+
+        function actualizarEstiloBotonConfirmacion(templateValue) {
+            $('.btn-confirmacion').each(function() {
+                if ($(this).data('value-template-confirmacion') === templateValue) {
+                    $(this).removeClass('btn-outline-dark').addClass('btn-primary').text('Plantilla Seleccionada');
+                } else {
+                    $(this).removeClass('btn-primary').addClass('btn-outline-dark').text('Seleccionar Plantilla');
+                }
+            });
+        }
+
+
+        // Obtener el valor de la plantilla seleccionada desde el servidor
+        $.ajax({
+            url: '../config/server_requests/getSelectedTemplateConfirmacion.php',
+            method: 'GET',
+            success: function(response) {
+                var templateValueConfirmacion = response.trim();
+                if (templateValueConfirmacion !== "") {
+                    $('#templateSelectedConfirmaciones').val(templateValueConfirmacion);
+                    actualizarEstiloBotonConfirmacion(templateValueConfirmacion);
+                }
+            },
+            error: function() {
+                console.log('Error al obtener la plantilla seleccionada desde el servidor.');
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        $.ajax({
+            url: '../config/server_requests/getAllTemplates.php',
+            method: 'POST',
+            data: { categoria: 'matrimonio' },
+            dataType: 'json',
+            success: function(registros) {
+                var contenedorTemplates = $('.templatesListMatrimonios');
+                contenedorTemplates.empty(); // Limpiar el contenedor antes de agregar nuevos elementos
+
+                // Recorrer los registros y generar los contenedores dinámicamente
+                $.each(registros, function(index, registro) {
+                    var contenedor = `
+                        <div class="col-lg-3 m-2">
+                            <div class="card">
+                                <img src="${registro.imagen}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">${registro.titulo}</h5>
+                                    <button type="button" class="btn btn-outline-dark btn-matrimonio w-100" data-value-template-matrimonio="${registro.valor}">Seleccionar Plantilla</button><br><br>
+                                    <a href="preview-templates?id=${registro.id}" class="btn btn-primary btn-sm">Ver Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    contenedorTemplates.append(contenedor);
+                });
+            },
+            error: function() {
+                console.log('Error al obtener los registros.');
+            }
+        });
+
+
+        $(document).on('click', '.btn-matrimonio', function() {
+            var templateValueMatrimonio = $(this).data('value-template-matrimonio');
+            $('#templateSelectedMatrimonios').val(templateValueMatrimonio);
+            
+            // Llamar a la función AJAX para actualizar el valor en la base de datos
+            actualizarPlantillaSeleccionadaMatrimonio(templateValueMatrimonio);
+        });
+
+
+        function actualizarPlantillaSeleccionadaMatrimonio(templateValueMatrimonio) {
+            $.ajax({
+                url: '../config/server_requests/updateTemplateMatrimonio.php',
+                method: 'POST',
+                data: { plantilla: templateValueMatrimonio },
+                success: function(response) {
+                    // console.log('Plantilla actualizada en la base de datos.');
+                    Toast.fire({
+                        icon: "success",
+                        title: "Plantilla de Matrimonio Actualizada"
+                    });
+                    // Actualizar el estilo del botón de la plantilla seleccionada
+                    actualizarEstiloBotonMatrimonio(templateValueMatrimonio);
+                },
+                error: function() {
+                    console.log('Error al actualizar la plantilla en la base de datos.');
+                }
+            });
+        }
+
+
+        function actualizarEstiloBotonMatrimonio(templateValue) {
+            $('.btn-matrimonio').each(function() {
+                if ($(this).data('value-template-matrimonio') === templateValue) {
+                    $(this).removeClass('btn-outline-dark').addClass('btn-primary').text('Plantilla Seleccionada');
+                } else {
+                    $(this).removeClass('btn-primary').addClass('btn-outline-dark').text('Seleccionar Plantilla');
+                }
+            });
+        }
+
+
+        // Obtener el valor de la plantilla seleccionada desde el servidor
+        $.ajax({
+            url: '../config/server_requests/getSelectedTemplateMatrimonio.php',
+            method: 'GET',
+            success: function(response) {
+                var templateValueMatrimonio = response.trim();
+                if (templateValueMatrimonio !== "") {
+                    $('#templateSelectedMatrimonios').val(templateValueMatrimonio);
+                    actualizarEstiloBotonMatrimonio(templateValueMatrimonio);
+                }
+            },
+            error: function() {
+                console.log('Error al obtener la plantilla seleccionada desde el servidor.');
+            }
+        });
