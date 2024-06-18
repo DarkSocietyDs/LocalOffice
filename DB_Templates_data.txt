@@ -135,67 +135,67 @@ Id: 23
 Titulo: Dio_Cuauti
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Dio_Cuauti-template
 **************************************************
 Id: 24
 Titulo: Arq_Durango
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Arq_Durango-template
 **************************************************
 Id: 25
 Titulo: Arq_Acapulco
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Arq_Acapulco-template
 **************************************************
 Id: 26
 Titulo: Arq_Toluca
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Arq_Toluca-template
 **************************************************
 Id: 27
 Titulo: Arq_Puebla
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Arq_Puebla-template
 **************************************************
 Id: 28
 Titulo: Dio_Tlaxcala
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Dio_Tlaxcala-template
 **************************************************
 Id: 29
 Titulo: Prel_Salto
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Prel_Salto-template
 **************************************************
 Id: 30
 Titulo: Epq_Ntra_Sra_Mrt_Lbn
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Epq_Ntra_Sra_Mrt_Lbn-template
 **************************************************
 Id: 31
 Titulo: Prel_Nayarit
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Prel_Nayarit-template
 **************************************************
 Id: 32
 Titulo: Epq_Ntra_Sra_Pso
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Epq_Ntra_Sra_Pso-template
 **************************************************
 Id: 33
 Titulo: Dio_Matehuala
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: Dio_Matehuala-template
 **************************************************
 Id: 34
 Titulo: Angelic Grace1
