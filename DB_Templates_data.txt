@@ -35,3 +35,9 @@ Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
 Valor: NunChabollillo-template
 **************************************************
+Id: 7
+Titulo: Arq_Puebla
+Categoria: confirmacion
+Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
+Valor: Arq_Puebla-template
+**************************************************
