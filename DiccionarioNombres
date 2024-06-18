@@ -14,3 +14,87 @@ Noemi
 Ricardo
 Mónica
 Martín
+
+
+
+
+
+
+<?php
+
+include('../conexion.php');
+
+$sql = "SELECT diocesis_parroquia FROM data_parroquia WHERE id = 1";
+$result = $con->query($sql);
+
+if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $Diocesis = $row['diocesis_parroquia'];
+}
+
+if (isset($_POST['categoria'])) {
+    $categoria = $_POST['categoria'];
+    $registros = array();
+    //$Diocesis = "Dio_Cuautitlan"; // Añadiendo la variable $Diocesis
+    // Leer el archivo de texto
+    $lineas = file('../../LocalOffice-main/DB_Templates_data.txt', FILE_IGNORE_NEW_LINES);
+    // Inicializar variables para almacenar los datos de cada registro
+    $id = '';
+    $titulo = '';
+    $imagen = '';
+    $valor = '';
+    $validarDiocesis = ($categoria === 'confirmacion'); // Validación de la categoría "confirmacion"
+    // Recorrer las líneas del archivo
+    foreach ($lineas as $linea) {
+        // Verificar si es una línea de separación
+        if (strpos($linea, '*') !== false) {
+            // Si se encontró un registro completo y cumple con la validación de la Diócesis (si aplica)
+            if (!empty($id) && !empty($titulo) && !empty($imagen) && !empty($valor) && (!$validarDiocesis || ($validarDiocesis && strpos($valor, $Diocesis) !== false))) {
+                $registros[] = array(
+                    'id' => $id,
+                    'titulo' => $titulo,
+                    'imagen' => $imagen,
+                    'valor' => $valor
+                );
+            }
+            // Reiniciar las variables para el siguiente registro
+            $id = '';
+            $titulo = '';
+            $imagen = '';
+            $valor = '';
+        } else {
+            // Extraer el identificador y el dato de la línea
+            list($identificador, $dato) = explode(':', $linea, 2);
+            $identificador = trim($identificador);
+            $dato = trim($dato);
+            // Asignar el dato al campo correspondiente
+            switch ($identificador) {
+                case 'Id':
+                    $id = $dato;
+                    break;
+                case 'Titulo':
+                    $titulo = $dato;
+                    break;
+                case 'Categoria':
+                    if ($dato !== $categoria) {
+                        // Si la categoría no coincide, reiniciar las variables
+                        $id = '';
+                        $titulo = '';
+                        $imagen = '';
+                        $valor = '';
+                    }
+                    break;
+                case 'Imagen':
+                    $imagen = $dato;
+                    break;
+                case 'Valor':
+                    $valor = $dato;
+                    break;
+            }
+        }
+    }
+    // Devolver los registros en formato JSON
+    header('Content-Type: application/json');
+    echo json_encode($registros);
+}
+?>
