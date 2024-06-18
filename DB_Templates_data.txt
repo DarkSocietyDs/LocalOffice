@@ -3,263 +3,263 @@ Id: 1
 Titulo: Angelic Grace1
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace1-template
+Valor: AngelicGrace1-template-1
 **************************************************
 Id: 2
 Titulo: Heavenly Blessing2
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: HeavenlyBlessing2-template
+Valor: HeavenlyBlessing2-template-2
 **************************************************
 Id: 3
 Titulo: Divine Innocence3
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: DivineInnocence3-template
+Valor: DivineInnocence3-template-3
 **************************************************
 Id: 4
 Titulo: Cherished Moment4
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: CherishedMoment4-template
+Valor: CherishedMoment4-template-4
 **************************************************
 Id: 5
 Titulo: Blessed Beginning5
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: BlessedBeginning5-template
+Valor: BlessedBeginning5-template-5
 **************************************************
 Id: 6
 Titulo: Sacred Celebration6
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: SacredCelebration6-template
+Valor: SacredCelebration6-template-6
 **************************************************
 Id: 7
 Titulo: Pure Love7
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: PureLove7-template
+Valor: PureLove7-template-7
 **************************************************
 Id: 8
 Titulo: Joyful Christening8
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: JoyfulChristening8-template
+Valor: JoyfulChristening8-template-8
 **************************************************
 Id: 9
 Titulo: Miraculous Gift9
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: MiraculousGift9-template
+Valor: MiraculousGift9-template-9
 **************************************************
 Id: 10
 Titulo: Eternal Promise10
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: EternalPromise10-template
+Valor: EternalPromise10-template-10
 **************************************************
 Id: 11
 Titulo: Holy Sacrament11
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: HolySacrament11-template
+Valor: HolySacrament11-template-11
 **************************************************
 Id: 12
 Titulo: First Communion Blessing1
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: FirstCommunionBlessing1-template
+Valor: FirstCommunionBlessing1-template-12
 **************************************************
 Id: 13
 Titulo: Spiritual Journey2
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: SpiritualJourney2-template
+Valor: SpiritualJourney2-template-13
 **************************************************
 Id: 14
 Titulo: Sacred Union3
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: SacredUnion3-template
+Valor: SacredUnion3-template-14
 **************************************************
 Id: 15
 Titulo: Blessed Sacrament4
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: BlessedSacrament4-template
+Valor: BlessedSacrament4-template-15
 **************************************************
 Id: 16
 Titulo: Eucharistic Celebration5
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: EucharisticCelebration5-template
+Valor: EucharisticCelebration5-template-16
 **************************************************
 Id: 17
 Titulo: Divine Grace6
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: DivineGrace6-template
+Valor: DivineGrace6-template-17
 **************************************************
 Id: 18
 Titulo: Holy Communion7
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: HolyCommunion7-template
+Valor: HolyCommunion7-template-18
 **************************************************
 Id: 19
 Titulo: Faithful Step8
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: FaithfulStep8-template
+Valor: FaithfulStep8-template-19
 **************************************************
 Id: 20
 Titulo: Sacramental Joy9
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: SacramentalJoy9-template
+Valor: SacramentalJoy9-template-20
 **************************************************
 Id: 21
 Titulo: Bread of Life10
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: BreadOfLife10-template
+Valor: BreadOfLife10-template-21
 **************************************************
 Id: 22
 Titulo: Communion Celebration11
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: CommunionCelebration11-template
+Valor: CommunionCelebration11-template-22
 **************************************************
 Id: 23
 Titulo: Dio_Aguascalientes
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Aguascalientes-template
+Valor: Dio_Aguascalientes-template-23
 **************************************************
 Id: 24
 Titulo: Dio_Apatzingan
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Apatzingan-template
+Valor: Dio_Apatzingan-template-24
 **************************************************
 Id: 25
 Titulo: Dio_Atlacomulco
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Atlacomulco-template
+Valor: Dio_Atlacomulco-template-25
 **************************************************
 Id: 26
 Titulo: Dio_Autlan
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Autlan-template
+Valor: Dio_Autlan-template-26
 **************************************************
 Id: 27
 Titulo: Dio_Campeche
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Campeche-template
+Valor: Dio_Campeche-template-27
 **************************************************
 Id: 28
 Titulo: Dio_Celaya
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Celaya-template
+Valor: Dio_Celaya-template-28
 **************************************************
 Id: 29
 Titulo: Dio_Ciudad_Altamirano
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Ciudad_Altamirano-template
+Valor: Dio_Ciudad_Altamirano-template-29
 **************************************************
 Id: 30
 Titulo: Dio_Ciudad_Guzman
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Ciudad_Guzman-template
+Valor: Dio_Ciudad_Guzman-template-30
 **************************************************
 Id: 31
 Titulo: Dio_Ciudad_Lazaro_Cardenas
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Ciudad_Lazaro_Cardenas-template
+Valor: Dio_Ciudad_Lazaro_Cardenas-template-31
 **************************************************
 Id: 32
 Titulo: Dio_Ciudad_Obregon
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Ciudad_Obregon-template
+Valor: Dio_Ciudad_Obregon-template-32
 **************************************************
 Id: 33
 Titulo: Dio_Ciudad_Valles
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Ciudad_Valles-template
+Valor: Dio_Ciudad_Valles-template-33
 **************************************************
 Id: 34
 Titulo: Eternal Love1
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: EternalLove1-template
+Valor: EternalLove1-template-34
 **************************************************
 Id: 35
 Titulo: Unforgettable Day2
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: UnforgettableDay2-template
+Valor: UnforgettableDay2-template-35
 **************************************************
 Id: 36
 Titulo: Blessed Union3
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: BlessedUnion3-template
+Valor: BlessedUnion3-template-36
 **************************************************
 Id: 37
 Titulo: Hearts Entwined4
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: HeartsEntwined4-template
+Valor: HeartsEntwined4-template-37
 **************************************************
 Id: 38
 Titulo: Perfect Match5
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: PerfectMatch5-template
+Valor: PerfectMatch5-template-38
 **************************************************
 Id: 39
 Titulo: Timeless Romance6
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: TimelessRomance6-template
+Valor: TimelessRomance6-template-39
 **************************************************
 Id: 40
 Titulo: Together Forever7
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: TogetherForever7-template
+Valor: TogetherForever7-template-40
 **************************************************
 Id: 41
 Titulo: Cherished Beginnings8
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: CherishedBeginnings8-template
+Valor: CherishedBeginnings8-template-41
 **************************************************
 Id: 42
 Titulo: Love's Journey9
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: LovesJourney9-template
+Valor: LovesJourney9-template-42
 **************************************************
 Id: 43
 Titulo: Unbreakable Bond10
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: UnbreakableBond10-template
+Valor: UnbreakableBond10-template-43
 **************************************************
 Id: 44
 Titulo: Soulmates United11
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: SoulmatesUnited11-template
+Valor: SoulmatesUnited11-template-44
 **************************************************
