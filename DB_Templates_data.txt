@@ -3,263 +3,263 @@ Id: 1
 Titulo: Angelic Grace1
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: AngelicGrace1-template
 **************************************************
 Id: 2
-Titulo: Angelic Grace2
+Titulo: Heavenly Blessing2
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: HeavenlyBlessing2-template
 **************************************************
 Id: 3
-Titulo: Angelic Grace3
+Titulo: Divine Innocence3
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: DivineInnocence3-template
 **************************************************
 Id: 4
-Titulo: Angelic Grace4
+Titulo: Cherished Moment4
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: CherishedMoment4-template
 **************************************************
 Id: 5
-Titulo: Angelic Grace5
+Titulo: Blessed Beginning5
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: BlessedBeginning5-template
 **************************************************
 Id: 6
-Titulo: Angelic Grac6
+Titulo: Sacred Celebration6
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: SacredCelebration6-template
 **************************************************
 Id: 7
-Titulo: Angelic Grace7
+Titulo: Pure Love7
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: PureLove7-template
 **************************************************
 Id: 8
-Titulo: Angelic Grace8
+Titulo: Joyful Christening8
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: JoyfulChristening8-template
 **************************************************
 Id: 9
-Titulo: Angelic Grace9
+Titulo: Miraculous Gift9
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: MiraculousGift9-template
 **************************************************
 Id: 10
-Titulo: Angelic Grace10
+Titulo: Eternal Promise10
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: EternalPromise10-template
 **************************************************
 Id: 11
-Titulo: Angelic Grace11
+Titulo: Holy Sacrament11
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: HolySacrament11-template
 **************************************************
 Id: 12
-Titulo: Angelic Grace1
+Titulo: First Communion Blessing1
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: FirstCommunionBlessing1-template
 **************************************************
 Id: 13
-Titulo: Angelic Grace2
+Titulo: Spiritual Journey2
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: SpiritualJourney2-template
 **************************************************
 Id: 14
-Titulo: Angelic Grace3
+Titulo: Sacred Union3
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: SacredUnion3-template
 **************************************************
 Id: 15
-Titulo: Angelic Grace4
+Titulo: Blessed Sacrament4
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: BlessedSacrament4-template
 **************************************************
 Id: 16
-Titulo: Angelic Grace5
+Titulo: Eucharistic Celebration5
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: EucharisticCelebration5-template
 **************************************************
 Id: 17
-Titulo: Angelic Grac6
+Titulo: Divine Grace6
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: DivineGrace6-template
 **************************************************
 Id: 18
-Titulo: Angelic Grace7
+Titulo: Holy Communion7
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: HolyCommunion7-template
 **************************************************
 Id: 19
-Titulo: Angelic Grace8
+Titulo: Faithful Step8
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: FaithfulStep8-template
 **************************************************
 Id: 20
-Titulo: Angelic Grace9
+Titulo: Sacramental Joy9
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: SacramentalJoy9-template
 **************************************************
 Id: 21
-Titulo: Angelic Grace10
+Titulo: Bread of Life10
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: BreadOfLife10-template
 **************************************************
 Id: 22
-Titulo: Angelic Grace11
+Titulo: Communion Celebration11
 Categoria: comunion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: CommunionCelebration11-template
 **************************************************
 Id: 23
-Titulo: Dio_Cuauti
+Titulo: Dio_Aguascalientes
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Cuauti-template
+Valor: Dio_Aguascalientes-template
 **************************************************
 Id: 24
-Titulo: Arq_Durango
+Titulo: Dio_Apatzingan
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Arq_Durango-template
+Valor: Dio_Apatzingan-template
 **************************************************
 Id: 25
-Titulo: Arq_Acapulco
+Titulo: Dio_Atlacomulco
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Arq_Acapulco-template
+Valor: Dio_Atlacomulco-template
 **************************************************
 Id: 26
-Titulo: Arq_Toluca
+Titulo: Dio_Autlan
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Arq_Toluca-template
+Valor: Dio_Autlan-template
 **************************************************
 Id: 27
-Titulo: Arq_Puebla
+Titulo: Dio_Campeche
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Arq_Puebla-template
+Valor: Dio_Campeche-template
 **************************************************
 Id: 28
-Titulo: Dio_Tlaxcala
+Titulo: Dio_Celaya
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Tlaxcala-template
+Valor: Dio_Celaya-template
 **************************************************
 Id: 29
-Titulo: Prel_Salto
+Titulo: Dio_Ciudad_Altamirano
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Prel_Salto-template
+Valor: Dio_Ciudad_Altamirano-template
 **************************************************
 Id: 30
-Titulo: Epq_Ntra_Sra_Mrt_Lbn
+Titulo: Dio_Ciudad_Guzman
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Epq_Ntra_Sra_Mrt_Lbn-template
+Valor: Dio_Ciudad_Guzman-template
 **************************************************
 Id: 31
-Titulo: Prel_Nayarit
+Titulo: Dio_Ciudad_Lazaro_Cardenas
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Prel_Nayarit-template
+Valor: Dio_Ciudad_Lazaro_Cardenas-template
 **************************************************
 Id: 32
-Titulo: Epq_Ntra_Sra_Pso
+Titulo: Dio_Ciudad_Obregon
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Epq_Ntra_Sra_Pso-template
+Valor: Dio_Ciudad_Obregon-template
 **************************************************
 Id: 33
-Titulo: Dio_Matehuala
+Titulo: Dio_Ciudad_Valles
 Categoria: confirmacion
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: Dio_Matehuala-template
+Valor: Dio_Ciudad_Valles-template
 **************************************************
 Id: 34
-Titulo: Angelic Grace1
+Titulo: Eternal Love1
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: EternalLove1-template
 **************************************************
 Id: 35
-Titulo: Angelic Grace2
+Titulo: Unforgettable Day2
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: UnforgettableDay2-template
 **************************************************
 Id: 36
-Titulo: Angelic Grace3
+Titulo: Blessed Union3
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: BlessedUnion3-template
 **************************************************
 Id: 37
-Titulo: Angelic Grace4
+Titulo: Hearts Entwined4
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: HeartsEntwined4-template
 **************************************************
 Id: 38
-Titulo: Angelic Grace5
+Titulo: Perfect Match5
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: PerfectMatch5-template
 **************************************************
 Id: 39
-Titulo: Angelic Grac6
+Titulo: Timeless Romance6
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: TimelessRomance6-template
 **************************************************
 Id: 40
-Titulo: Angelic Grace7
+Titulo: Together Forever7
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: TogetherForever7-template
 **************************************************
 Id: 41
-Titulo: Angelic Grace8
+Titulo: Cherished Beginnings8
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: CherishedBeginnings8-template
 **************************************************
 Id: 42
-Titulo: Angelic Grace9
+Titulo: Love's Journey9
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: LovesJourney9-template
 **************************************************
 Id: 43
-Titulo: Angelic Grace10
+Titulo: Unbreakable Bond10
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: UnbreakableBond10-template
 **************************************************
 Id: 44
-Titulo: Angelic Grace11
+Titulo: Soulmates United11
 Categoria: matrimonio
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace-template
+Valor: SoulmatesUnited11-template
 **************************************************
