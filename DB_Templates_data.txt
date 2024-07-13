@@ -1,9 +1,9 @@
 **************************************************
 Id: 1
-Titulo: Angelic Grace1
+Titulo: Santa Teresa
 Categoria: bautizo
 Imagen: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
-Valor: AngelicGrace1-template-1
+Valor: SantaTeresa1-template-1
 **************************************************
 Id: 2
 Titulo: Heavenly Blessing2
